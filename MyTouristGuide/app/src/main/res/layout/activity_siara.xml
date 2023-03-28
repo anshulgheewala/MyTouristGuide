@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".siara">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/mytoutv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#38B6FF"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="My Tourist Guide"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mytoutv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="Hotel Siara Styles"
+            android:textSize="30dp">
+
+
+        </TextView>
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/vf"
+            android:flipInterval="3000"
+            android:autoStart="true"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_below="@id/tv">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/siara1">
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/siara2">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/siara3">
+            </ImageView>
+
+
+
+
+
+
+
+        </ViewFlipper>
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vf"
+            android:layout_centerHorizontal="true"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+           android:text="This Siara Styles Amba Suites is great place if you want to stay between ahmedabad and gandhinagar. Room size 450 sqft. , clear crystal clean rooms and property. Very adorable staff and hospitality. Quality of food was excellent. It is located in very silent and green place. As this Siara Styles Amba Suites is property and food of trimandir, the rates of room are very reasonable. Manager mr. Anoop ji is very active and friendly. You will find safe and secure parking place if you coming by your own vehicle. Overall i will tell that this Siara Styles Amba Suites deserse 5 star rating."
+            android:textSize="19dp"></TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Features"
+            android:textSize="22dp"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv2"
+            android:id="@+id/features">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/features"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/amba"></ImageView>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_below="@+id/iv4"
+            android:layout_marginTop="20dp"
+            android:text="Location "
+            android:textSize="22dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+
+        <Button
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv4"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="50dp"
+            android:text="Click Here For Location"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/for_booking"
+            android:layout_below="@+id/aaa"
+            android:layout_marginTop="5dp"
+            android:text="For Bookings Click Below "
+            android:textSize="22dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+
+        <Button
+            android:id="@+id/goibibo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/for_booking"
+            android:text="GOIBIBO"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"></Button>
+
+        <Button
+            android:id="@+id/tripadvisor"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/goibibo"
+            android:text="TRIPADVISOR"
+            android:layout_marginBottom="20dp"
+            android:layout_centerInParent="true"></Button>
+
+        <Button
+            android:id="@+id/makemytrip"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tripadvisor"
+            android:text="MAKE MY TRIP"
+            android:layout_marginBottom="50dp"
+            android:layout_centerInParent="true"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

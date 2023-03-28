@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g5"
+    tools:context=".Gandhinagar">
+
+
+
+
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_marginTop="30dp"
+      android:id="@+id/visiting_g"
+      android:layout_height="80dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/visitin">
+    </ImageView>
+
+
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:text="Visiting Places"
+      android:paddingTop="20dp"
+      android:paddingLeft="60dp"
+
+      android:textSize="30dp"
+      android:textAlignment="center"
+
+      ></TextView>
+
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_below="@+id/visiting_g"
+      android:id="@+id/hotel_g"
+      android:layout_marginTop="30dp"
+      android:layout_height="80dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hotel2">
+    </ImageView>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Hotels"
+        android:paddingTop="20dp"
+        android:paddingLeft="60dp"
+
+        android:textSize="30dp"
+        android:textAlignment="center"
+
+        ></TextView>
+
+  </androidx.cardview.widget.CardView>
+
+
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_below="@+id/hotel_g"
+      android:layout_marginTop="30dp"
+      android:id="@+id/restaurant_g"
+      android:layout_height="80dp">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/restaurent">
+    </ImageView>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Restuarant"
+        android:paddingTop="20dp"
+        android:paddingLeft="60dp"
+
+
+        android:textSize="30dp"
+        android:textAlignment="center"
+
+        ></TextView>
+
+  </androidx.cardview.widget.CardView>
+
+  </RelativeLayout>

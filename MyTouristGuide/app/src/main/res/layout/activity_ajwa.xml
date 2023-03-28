@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajwa">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/mytoutv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#38B6FF"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="My Tourist Guide"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mytoutv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="Ajwa Nimeta Dam"
+            android:textSize="30dp">
+
+
+        </TextView>
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/vf"
+            android:flipInterval="3000"
+            android:autoStart="true"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_below="@id/tv">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/aj4">
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/aj2">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/aj">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/aj1">
+
+            </ImageView>
+
+
+
+        </ViewFlipper>
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vf"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:text="It is an earthen dam that was built early 20th century by the then ruler of Vadodara, Maharaja Sayajirao Gaekwad III. Its main aim was to provide water to the residents of Vadodara. Although the population of Vadodara at that time was 100,000 it was the ruler's vision to build the reservoir three times larger. This reservoir has the ability to attend to the water requirements of about 300,000 people residing in the eastern parts of the city."
+            android:textSize="19dp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/aj3"></ImageView>
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv2"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:text="The dam is about 5 km long. It can store water to the height of 211 feet above the sea level (its overflow level).[1] The floor of the reservoir is at around 196 feet. It is connected to the Vishwamitri river which flows through the city of Vadodara, so that excess water in event of floods is dispatched to this river. The reservoir has 62 gates. Sardar Sarovar's One Branch Canal Feed water during dry season whenever requires.[1]
+
+The engineer of the dam was Jagannath Sadashiva Hate, also known as Shri Jagannath Sadashivji. When the reservoir is full, it is supposed to have a catchment area of something close to 195 square kilometers."
+            android:textSize="19dp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:text="Location "
+            android:textSize="22dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+
+
+
+        <Button
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv4"
+            android:text="Click Here For Location"
+            android:layout_marginBottom="50dp"
+            android:layout_centerInParent="true"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

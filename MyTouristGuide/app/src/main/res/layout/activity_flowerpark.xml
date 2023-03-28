@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flowerpark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/mytoutv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#38B6FF"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="My Tourist Guide"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mytoutv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="Flower Park"
+            android:textSize="30dp">
+
+
+        </TextView>
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/vf"
+            android:flipInterval="3000"
+            android:autoStart="true"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_below="@id/tv">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/flower1">
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/flower2">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/flower3">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/flower4">
+
+            </ImageView>
+
+
+
+        </ViewFlipper>
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vf"
+            android:layout_marginLeft="12dp"
+            android:layout_centerHorizontal="true"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="The smell of freshly blossoming flowers and bursting blooms will scent the Ahmedabad air once again for the Ahmedabad Sabarmati Riverfront Flower Show presented by Ahmedabad Municipal Corporation in 2023 over 10 glorious days. The visitors will also be surrounded by the colour and fragrance of the gorgeous and mysterious blooms and greenery. From the first fortnight of January 2023, Sabarmati Riverfront Flower Park will transform into a floral wonderland in full bloom."
+            android:textSize="19dp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/flower5"></ImageView>
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv2"
+            android:layout_centerHorizontal="true"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:text="The Flower Show in Ahmedabad proudly showcases infinite rows of breathtaking flowers, truly a treat to the senses and an experience you never forget. Apart from the regular red, orange, and yellow flower colours, you’ll be able to enjoy some unique hybrid flowers too. The main objective to celebrate this show is to make aware the tourists of the flowers and plantation, displaying a unique display of exquisite and rare flowers."
+            android:textSize="19dp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:text="Location "
+            android:textSize="22dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+
+
+
+        <Button
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv4"
+            android:text="Click Here For Location"
+            android:layout_marginBottom="50dp"
+            android:layout_centerInParent="true"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

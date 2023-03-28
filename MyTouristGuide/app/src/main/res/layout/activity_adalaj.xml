@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adalaj">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/mytoutv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#38B6FF"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="My Tourist Guide"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mytoutv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="Adalaj vav"
+            android:textSize="30dp">
+
+
+        </TextView>
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/vf"
+            android:flipInterval="3000"
+            android:autoStart="true"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_below="@id/tv">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/adalaj1">
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/adalaj2">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/adalaj3">
+            </ImageView>
+
+
+
+
+
+
+
+        </ViewFlipper>
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/vf"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"
+           android:text="With a population of more than 4.5 million people, the city of Ahmedabad is the business junction of Gujarat. The city situated on the banks of Sabarmati was founded by Sultan Ahmed Shah and has been ruled by several rulers.
+
+It is also renowned for its plethora of historical monuments that gives an insight into its rich culture and heritage. Ahmedabad is ornamented with step wells and the most prominent among them is the Adalaj Step Well which is also popular as Adalaj ni Vav."
+            android:textSize="19dp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/adalaj4"></ImageView>
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv2"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:text="Stepwells or the stepped ponds were generally built in semi-arid regions of the country especially along trade routes. These architectural sites were often used to store monsoon rains and by several pilgrims and traders passing through the way as their resting place.
+
+Making up an essential part of Ahmedabad’s history, Adalaj Step Well was commissioned by queen Rudabai, the wife of Vaghela dynasty’s Rana Veer Singh in 1498. He was the ruler of a small kingdom denoted as Dandai Desh."
+            android:textSize="19dp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:text="Location "
+            android:textSize="22dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+
+
+
+        <Button
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv4"
+            android:text="Click Here For Location"
+            android:layout_marginBottom="50dp"
+            android:layout_centerInParent="true"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

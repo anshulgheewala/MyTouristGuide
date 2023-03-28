@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/drawable/car.xml" value="0.16" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/drawable/exit.xml" value="0.1575" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.16" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/drawable/info.xml" value="0.1575" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/drawable/radius.xml" value="0.16" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/drawable/rectangle.xml" value="0.16" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/drawable/signout.xml" value="0.1575" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_about_us.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_adalaj.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_aghasiye.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_ahmedabad.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_ajwa.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_akshar_dham.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_atapi.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_autovintage.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_bayleaf.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_blue_berry.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_callico.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_dwarka.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_fern.xml" value="0.16" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_flowerpark.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_gandhinagar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_gokul.xml" value="0.264" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_grand_mercure.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_greehouse.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_green_apple.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_greencity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_hotels_ahmedabad.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_hotels_gandhinagar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_hotels_vadodra.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_hyatt.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_indroda.xml" value="0.264" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_jassi.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_junagadh.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_kankaria.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_kirti.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_kutch.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_lakshmivillas.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_leela.xml" value="0.1893542757417103" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_log_in.xml" value="0.2" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_mahatma.xml" value="0.264" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_mahudi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_main.xml" value="0.14083694083694084" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_main2.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_mandap.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_mehsana.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_metropole.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_narmada.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_novotel.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_patan.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_places.xml" value="0.2056434373663959" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_planet.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_radisson_blu.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_rajwadu.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_regenta.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_restaurant.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_restaurant_g.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_restaurant_v.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_river_front.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_riverview.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_route.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_route_north.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_route_south.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_royal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_sayaji.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_sciencecity.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_secret_kitchen.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_siara.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_sidisaiyyad.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_splash.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_taj.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_tinello.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_vadodra.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_vhr.xml" value="0.2056434373663959" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_visiting_places_ahmedabad.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_visiting_places_gandhinagar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_visiting_places_vadodra.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_welcome.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/activity_zyaka.xml" value="0.20863616930312098" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/details.xml" value="0.2056434373663959" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/items.xml" value="0.2056434373663959" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/places_items.xml" value="0.2056434373663959" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/layout/suggestions.xml" value="0.2056434373663959" />
+        <entry key="..\:/Users/anshu/Downloads/MyTouristGuide/app/src/main/res/menu/menu_items.xml" value="0.20863616930312098" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".planet">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/mytoutv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#38B6FF"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="My Tourist Guide"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mytoutv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="Sardar Patel Planetarium"
+            android:textSize="30dp">
+
+
+        </TextView>
+
+        <ViewFlipper
+            android:id="@+id/vf"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/tv"
+            android:layout_marginTop="30dp"
+            android:autoStart="true"
+            android:flipInterval="3000"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/sp1">
+
+            </ImageView>
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/sp3">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/sp4">
+
+            </ImageView>
+
+
+        </ViewFlipper>
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vf"
+            android:layout_marginLeft="12dp"
+            android:layout_centerHorizontal="true"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="The planetarium is located in the Sayajibaug.
+ The planetarium has a shape of a pyramid, the dome could also be used for extreme-wide projection.
+ It has a seating capacity of 156 the digital theatre of planetarium facilitates the observation of planets, moon, stars, nebula, displayed on full dome through projector.
+ Shows operated through Space master projector will provide dazzling shows and that would be unforgettable experience.
+ The shows will be in 3 languages Gujarati, Hindi, English."
+            android:textSize="19dp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/sp2"></ImageView>
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv2"
+            android:layout_marginLeft="12dp"
+            android:layout_centerHorizontal="true"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="The Sardar Patel Planetarium is located on the sprawling grounds of Sayajibaug. Its foundation stone was laid in 1974, and it was inaugurated two years later by Dr. H.N. Sethna, Chairman of the Atomic Energy Commission. The purpose of setting it up was to popularise science and astronomy among people. It was named after Sardar Vallabhbhai Patel to commemorate the birth centenary of the freedom fighter."
+            android:textSize="19dp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:text="Location "
+            android:textSize="22dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+
+
+
+        <Button
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv4"
+            android:text="Click Here For Location"
+            android:layout_marginBottom="50dp"
+            android:layout_centerInParent="true"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

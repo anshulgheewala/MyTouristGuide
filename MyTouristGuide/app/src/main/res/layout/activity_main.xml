@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#3BF"
+        android:id="@+id/rl"
+        android:layout_height="match_parent">
+
+
+        <ViewFlipper
+            android:id="@+id/vf"
+            android:layout_width="370dp"
+            android:layout_height="240dp"
+            android:layout_centerHorizontal="true"
+            android:autoStart="true"
+            android:flipInterval="3000"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:paddingBottom="15dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:background="#3bf"
+                android:src="@drawable/updated_ahmedabad1">
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/updated_gandhinagar"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/updated_mehsana"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/updated_vadodra1"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/updated_kutch"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/updated_junagadh"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/updated_dwarka"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/updated_narmada"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/updated_patan"></ImageView>
+
+
+        </ViewFlipper>
+
+
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_below="@id/vf"-->
+<!--            app:cardBackgroundColor="@color/white"-->
+<!--            app:cardElevation="12dp"-->
+<!--            android:elevation="12dp"-->
+<!--            android:background="@drawable/radius"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            app:cardCornerRadius="40dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1000dp">-->
+
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:layout_centerHorizontal="true"-->
+
+<!--                    android:layout_marginTop="30dp"-->
+<!--                    android:text="Top Cities in Gujarat"-->
+<!--                    android:textSize="30dp"></TextView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+
+<!--            android:id="@+id/cv1"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:clickable="true"-->
+<!--            android:foreground="?android:attr/selectableItemBackground"-->
+<!--            android:layout_below="@id/tv"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            app:cardElevation="8dp"-->
+<!--            app:cardCornerRadius="10dp">-->
+
+
+<!--            <ImageView-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:src="@drawable/akshardham"></ImageView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="140dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:text="GANDHINAGAR"-->
+<!--                android:textSize="25dp"></TextView>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+
+<!--    <androidx.cardview.widget.CardView-->
+
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:clickable="true"-->
+<!--        android:foreground="?android:attr/selectableItemBackground"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:cardElevation="8dp"-->
+<!--        android:layout_below="@id/cv1"-->
+<!--        android:id="@+id/cv2"-->
+
+<!--        app:cardCornerRadius="10dp">-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv2"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:src="@drawable/laldarwaja"></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="140dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="AHMEDABAD"-->
+<!--            android:textSize="25dp"></TextView>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <androidx.cardview.widget.CardView-->
+
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:clickable="true"-->
+<!--        android:foreground="?android:attr/selectableItemBackground"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_below="@+id/cv2"-->
+<!--        app:cardElevation="8dp"-->
+<!--        android:id="@+id/cv3"-->
+
+<!--        app:cardCornerRadius="10dp">-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv3"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:src="@drawable/laxmivillas"></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="140dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="VADODRA"-->
+<!--            android:textSize="25dp"></TextView>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <androidx.cardview.widget.CardView-->
+
+<!--        android:id="@+id/cv4"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_below="@+id/cv3"-->
+<!--        android:clickable="true"-->
+<!--        android:foreground="?android:attr/selectableItemBackground"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:cardElevation="8dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv4"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:src="@drawable/desert"></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="140dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="KUTCH"-->
+<!--            android:textSize="25dp"></TextView>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+
+<!--        android:id="@+id/cv5"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_below="@+id/cv4"-->
+<!--        android:clickable="true"-->
+<!--        android:foreground="?android:attr/selectableItemBackground"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:cardElevation="8dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:src="@drawable/temple"></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="140dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="JUNAGADH"-->
+<!--            android:textSize="25dp"></TextView>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--    <androidx.cardview.widget.CardView-->
+
+<!--        android:id="@+id/cv6"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_below="@+id/cv5"-->
+<!--        android:clickable="true"-->
+<!--        android:foreground="?android:attr/selectableItemBackground"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:cardElevation="8dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:src="@drawable/statue"></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="140dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="NARMADA"-->
+<!--            android:textSize="25dp"></TextView>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--    <androidx.cardview.widget.CardView-->
+
+<!--        android:id="@+id/cv7"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_below="@+id/cv6"-->
+<!--        android:clickable="true"-->
+<!--        android:foreground="?android:attr/selectableItemBackground"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:cardElevation="8dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:src="@drawable/temple1"></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="140dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="DWARKA"-->
+<!--            android:textSize="25dp"></TextView>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--    <androidx.cardview.widget.CardView-->
+
+<!--        android:id="@+id/cv8"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_below="@+id/cv7"-->
+<!--        android:clickable="true"-->
+<!--        android:foreground="?android:attr/selectableItemBackground"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:cardElevation="8dp"-->
+<!--        app:cardCornerRadius="10dp">-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:src="@drawable/rani"></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="140dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:text="PATAN"-->
+<!--            android:textSize="25dp"></TextView>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--        <androidx.cardview.widget.CardView-->
+
+<!--            android:id="@+id/cv9"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:layout_below="@+id/cv8"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:clickable="true"-->
+<!--            android:foreground="?android:attr/selectableItemBackground"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginBottom="0dp"-->
+<!--            app:cardElevation="8dp"-->
+<!--            app:cardCornerRadius="10dp">-->
+
+
+<!--            <ImageView-->
+<!--                android:layout_width="70dp"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:src="@drawable/sun"></ImageView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="140dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:text="MEHSANA"-->
+<!--                android:textSize="25dp"></TextView>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--            </RelativeLayout>-->
+
+<!--        </LinearLayout>-->
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/radius"
+            android:layout_below="@+id/rl">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/rl"
+                android:layout_gravity="center"
+                android:text="Top Cities in Gujarat"
+                android:textSize="30dp"></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv"
+                android:layout_marginTop="40dp"
+                android:id="@+id/rv">
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</ScrollView>

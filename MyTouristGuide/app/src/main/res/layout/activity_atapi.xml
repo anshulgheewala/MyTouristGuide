@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".atapi">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/mytoutv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#38B6FF"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="My Tourist Guide"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mytoutv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="Atapi Wonderland"
+            android:textSize="30dp">
+
+
+        </TextView>
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/vf"
+            android:flipInterval="3000"
+            android:autoStart="true"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_below="@id/tv">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ap">
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ap2">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ap3">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ap4">
+
+            </ImageView>
+
+
+
+        </ViewFlipper>
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vf"
+            android:layout_marginLeft="12dp"
+            android:layout_centerHorizontal="true"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="AATAPI Wonderland is an award winning Theme Park in the outskirts of Vadodara at Ajwa. A mega Theme Park project spread over 70 acres of land created in association with Cube Construction Engineering Limited, Vadodara Municipal Corporation and Gujarat Tourism. We have some of the best Rides and Attractions from all around the world, a place where you can spend the whole day and explore with your family. Visit us to experience the highest degree of hospitality that caters to the entertainment needs for all age groups at affordable prices."
+            android:textSize="19dp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/ap1"></ImageView>
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv2"
+            android:layout_marginLeft="12dp"
+            android:layout_centerHorizontal="true"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:text="40+ High Thrill, Adventure and Family Rides and Attractions
+Lost Valley of Dinosaurs - Brand New Family Attraction
+India's First Tubby Jump ride and Glow Garden (The Jugnoo World)
+Experience the Story of Vadodara with Our Spectacular Water Laser Show
+Best Theme Park Award 2019 by Gujarat Tourism Development
+Welcome Dance, Mascot Meet n Greet, Bollywood Dance, Juggling Show and Evening Carnival Parade
+Enjoy wide range of delicious cuisines, snacks and savouries throughout the park
+Explore lush green Vrundavan Garden while the dancing fountains transform to magical colours in the evening
+Many Thematic Photo Options throughout the park for stunning Selfies, Perfect venue to host Parties, Family occasions and Corporate Events"
+            android:textSize="19dp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:text="Location "
+            android:textSize="22dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+
+
+
+        <Button
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv4"
+            android:text="Click Here For Location"
+            android:layout_marginBottom="50dp"
+            android:layout_centerInParent="true"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AksharDham">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/mytoutv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#38B6FF"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="My Tourist Guide"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akshardham Temple"
+            android:layout_below="@+id/mytoutv"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp"
+
+            android:id="@+id/tv"
+            android:layout_centerHorizontal="true">
+
+
+
+        </TextView>
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/vf"
+            android:flipInterval="3000"
+            android:autoStart="true"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:layout_below="@id/tv">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/akshardham1">
+
+            </ImageView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ak1">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ak">
+            </ImageView>
+
+
+
+
+
+
+
+        </ViewFlipper>
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vf"
+            android:id="@+id/tv2"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:textSize="19dp"
+            android:layout_marginLeft="12dp"
+            android:text="Swaminarayan Akshardham in Gandhinagar, Gujarat, India is a large Hindu temple complex inspired by Yogiji Maharaj (1892–1971) the fourth spiritual successor of Swaminarayan, and created by Pramukh Swami Maharaj (1921–2016), the fifth spiritual successor of Swaminarayan according to the BAPS denomination of Swaminarayan Hinduism. Located in the capital of Gujarat, the complex was built over 13 years and is a tribute to Swaminarayan and his life and teachings.[1] At the center of the 23-acre complex is the Akshardham mandir, which is built from 6,000 metric tons of pink sandstone from Rajasthan.[2] The complex's name refers to the divine abode of Swaminarayan in the BAPS philosophy; followers of Swaminarayan believe that the jiva or soul goes to Akshardham after attaining moksha, or liberation. BAPS followers worship Swaminarayan as God almighty."
+            ></TextView>
+
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/ak1"></ImageView>
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv2"
+            android:id="@+id/tv3"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:textSize="19dp"
+            android:layout_marginLeft="12dp"
+            android:text="Akshardham is a majestic, intricately carved stone structure that stands amid sprawling gardens set in a 23-acre plot at Gandhinagar (Gandhinagar district). It is built in 6000 tonnes of pink sandstone and not a bit of steel has been used. The temple is 108 ft in height, 240 ft in length and 131 ft in width. A point worth noting is that this modern monument to Hinduism was built as per the injunctions of Vastu Shastra. The monument enshrining the seven-foot high, gold-leafed Murti (idol) of Lord Swaminarayan is the focal point of the complex."
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_below="@+id/tv3"
+            android:layout_marginTop="20dp"
+            android:text="Location "
+            android:textSize="22dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+
+
+
+        <Button
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv4"
+            android:text="Click Here For Location"
+            android:layout_marginBottom="50dp"
+            android:layout_centerInParent="true"></Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

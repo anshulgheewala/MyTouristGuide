@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".visiting_places_vadodra">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/cv_g1"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+                android:src="@drawable/sb1">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="  Sayaji Garden"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="25dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cv_g2"
+            app:cardCornerRadius="30dp"
+            android:layout_toRightOf="@+id/cv_g1"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+                android:src="@drawable/lv">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="    Laxmi Villas "
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="15dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/cv_g3"
+            app:cardCornerRadius="30dp"
+            android:layout_below="@+id/cv_g1"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+
+                android:src="@drawable/aj4">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="   Ajwa Dam"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="30dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cv_g4"
+            app:cardCornerRadius="30dp"
+            android:layout_toRightOf="@+id/cv_g3"
+            android:layout_below="@+id/cv_g2"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+
+                android:src="@drawable/sp4"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text=" Sardar Patel Pt"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="20dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/cv_g3"
+            app:cardCornerRadius="30dp"
+            android:id="@+id/cv_g5"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+                android:src="@drawable/km4">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="   Kirti Mandir"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="25dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cv_g6"
+            app:cardCornerRadius="30dp"
+            android:layout_toRightOf="@+id/cv_g5"
+            android:layout_below="@+id/cv_g4"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+                android:src="@drawable/ap2">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="Atapi Wonderland"
+                app:cardCornerRadius="30dp"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="15dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

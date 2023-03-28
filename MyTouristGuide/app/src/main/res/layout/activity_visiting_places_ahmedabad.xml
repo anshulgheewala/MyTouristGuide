@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisitingPlaces_Ahmedabad">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/cv_g1"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+                android:src="@drawable/riverfront">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="    Riverfront"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="25dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cv_g2"
+            app:cardCornerRadius="30dp"
+            android:layout_toRightOf="@+id/cv_g1"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+                android:src="@drawable/kankaria">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="   Kankaria Lake"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="15dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/cv_g3"
+            app:cardCornerRadius="30dp"
+            android:layout_below="@+id/cv_g1"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+
+                android:src="@drawable/adalaj">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="    Adalaj Vav"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="30dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cv_g4"
+            app:cardCornerRadius="30dp"
+            android:layout_toRightOf="@+id/cv_g3"
+            android:layout_below="@+id/cv_g2"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+
+                android:src="@drawable/sciencecity"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="    Science City"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="20dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/cv_g3"
+            android:id="@+id/cv_g5"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+                android:src="@drawable/auto">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="  Auto Vintage"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="25dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cv_g6"
+            app:cardCornerRadius="30dp"
+            android:layout_toRightOf="@+id/cv_g5"
+            android:layout_below="@+id/cv_g4"
+            android:layout_marginTop="40dp">++++++++
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+                android:src="@drawable/sidi">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="      Sidi Saiyad"
+
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="15dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/cv_g7"
+            app:cardCornerRadius="30dp"
+            android:layout_below="@+id/cv_g5"
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+
+                android:src="@drawable/flower">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text="   Flower Park"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="30dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cv_g8"
+            app:cardCornerRadius="30dp"
+            android:layout_toRightOf="@+id/cv_g7"
+            android:layout_below="@+id/cv_g6"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+
+
+                android:src="@drawable/calico"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom"
+                android:text=" Calico Museum"
+                android:textColor="@color/black"
+                android:paddingTop="12dp"
+                android:textSize="19dp"
+                android:paddingLeft="20dp">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

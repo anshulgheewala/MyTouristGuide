@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vadodra">
+
+
+
+    <TextView
+        android:id="@+id/mytoutv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#38B6FF"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="My Tourist Guide"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mytoutv"
+        android:layout_marginTop="30dp"
+        android:id="@+id/visiting_a"
+        android:layout_height="80dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/visitin">
+        </ImageView>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Visiting Places"
+            android:paddingTop="20dp"
+            android:paddingLeft="60dp"
+
+            android:textSize="30dp"
+            android:textAlignment="center"
+
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/visiting_a"
+        android:id="@+id/hotel_a"
+        android:layout_marginTop="30dp"
+        android:layout_height="80dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hotel2">
+        </ImageView>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Hotels"
+            android:paddingTop="20dp"
+            android:paddingLeft="60dp"
+
+            android:textSize="30dp"
+            android:textAlignment="center"
+
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/hotel_a"
+        android:layout_marginTop="30dp"
+        android:id="@+id/restaurant_a"
+        android:layout_height="80dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/restaurent">
+        </ImageView>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Restuarant"
+            android:paddingTop="20dp"
+            android:paddingLeft="60dp"
+
+
+            android:textSize="30dp"
+            android:textAlignment="center"
+
+            ></TextView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

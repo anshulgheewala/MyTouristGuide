@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ag.mytouristguide">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyTouristGuide">
+        <activity
+            android:name=".places"
+            android:exported="false" />
+        <activity
+            android:name=".vhr"
+            android:exported="false" />
+        <activity
+            android:name=".Mehsana"
+            android:exported="false" />
+        <activity
+            android:name=".patan"
+            android:exported="false" />
+        <activity
+            android:name=".dwarka"
+            android:exported="false" />
+        <activity
+            android:name=".narmada"
+            android:exported="false" />
+        <activity
+            android:name=".junagadh"
+            android:exported="false" />
+        <activity
+            android:name=".Kutch"
+            android:exported="false" />
+        <activity
+            android:name=".route_south"
+            android:exported="false" />
+        <activity
+            android:name=".route_north"
+            android:exported="false" />
+        <activity
+            android:name=".Route"
+            android:exported="false" />
+        <activity
+            android:name=".jassi"
+            android:exported="false" />
+        <activity
+            android:name=".secretKitchen"
+            android:exported="false" />
+        <activity
+            android:name=".mandap"
+            android:exported="false" />
+        <activity
+            android:name=".bayleaf"
+            android:exported="false" />
+        <activity
+            android:name=".welcome"
+            android:exported="false" />
+        <activity
+            android:name=".fern"
+            android:exported="false" />
+        <activity
+            android:name=".Regenta"
+            android:exported="false" />
+        <activity
+            android:name=".Grand_Mercure"
+            android:exported="false" />
+        <activity
+            android:name=".atapi"
+            android:exported="false" />
+        <activity
+            android:name=".kirti"
+            android:exported="false" />
+        <activity
+            android:name=".Ajwa"
+            android:exported="false" />
+        <activity
+            android:name=".planet"
+            android:exported="false" />
+        <activity
+            android:name=".lakshmivillas"
+            android:exported="false" />
+        <activity
+            android:name=".sayaji"
+            android:exported="false" />
+        <activity
+            android:name=".restaurant_v"
+            android:exported="false" />
+        <activity
+            android:name=".hotels_vadodra"
+            android:exported="false" />
+        <activity
+            android:name=".visiting_places_vadodra"
+            android:exported="false" />
+        <activity
+            android:name=".Vadodra"
+            android:exported="false" />
+        <activity
+            android:name=".Greehouse"
+            android:exported="false" />
+        <activity
+            android:name=".Rajwadu"
+            android:exported="false" />
+        <activity
+            android:name=".Aghasiye"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".TinelloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Novotel"
+            android:exported="false" />
+        <activity
+            android:name=".Riverview"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.River"
+            android:exported="false"
+            android:label="@string/title_activity_river" />
+        <activity
+            android:name=".Metropole"
+            android:exported="false" />
+        <activity
+            android:name=".Radisson_blu"
+            android:exported="false" />
+        <activity
+            android:name=".Taj"
+            android:exported="false" />
+        <activity
+            android:name=".Hyatt"
+            android:exported="false" />
+        <activity
+            android:name=".callico"
+            android:exported="false" />
+        <activity
+            android:name=".flowerpark"
+            android:exported="false" />
+        <activity
+            android:name=".sidisaiyyad"
+            android:exported="false" />
+        <activity
+            android:name=".autovintage"
+            android:exported="false" />
+        <activity
+            android:name=".sciencecity"
+            android:exported="false" />
+        <activity
+            android:name=".Adalaj"
+            android:exported="false" />
+        <activity
+            android:name=".RiverFront"
+            android:exported="false" />
+        <activity
+            android:name=".kankaria"
+            android:exported="false" />
+        <activity
+            android:name=".restaurant_a"
+            android:exported="false" />
+        <activity
+            android:name=".hotels_ahmedabad"
+            android:exported="false" />
+        <activity
+            android:name=".VisitingPlaces_Ahmedabad"
+            android:exported="false" />
+        <activity
+            android:name=".Ahmedabad"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".zyaka"
+            android:exported="false" />
+        <activity
+            android:name=".BlueBerry"
+            android:exported="false" />
+        <activity
+            android:name=".Gokul"
+            android:exported="false" />
+        <activity
+            android:name=".GreenApple"
+            android:exported="false" />
+        <activity
+            android:name=".restaurant_g"
+            android:exported="false" />
+        <activity
+            android:name=".greencity"
+            android:exported="false" />
+        <activity
+            android:name=".siara"
+            android:exported="false" />
+        <activity
+            android:name=".Royal"
+            android:exported="false" />
+        <activity
+            android:name=".Leela"
+            android:exported="false" />
+        <activity
+            android:name=".hotels_gandhinagar"
+            android:exported="false" />
+        <activity
+            android:name=".mahudi"
+            android:exported="false" />
+        <activity
+            android:name=".Indroda"
+            android:exported="false" />
+        <activity
+            android:name=".Mahatma"
+            android:exported="false" />
+        <activity
+            android:name=".AksharDham"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VisitingPlaces_Gandhinagar"
+            android:exported="false" />
+        <activity
+            android:name=".Gandhinagar"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".LogInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
